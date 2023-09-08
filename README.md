@@ -6,7 +6,7 @@ docker run -d \
     --network=host \
     --name=aurora-metrics \
     -e FLASK_PORT=5000 \
-    -e ENDPOINT=http:127.0.0.1:20080 \
+    -e ENDPOINT=http://127.0.0.1:20080 \
     jionederfull/aurora-metrics:0.1
 ```
 
